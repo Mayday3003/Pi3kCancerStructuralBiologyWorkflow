@@ -1,0 +1,87 @@
+MODEL 1
+REMARK VINA RESULT:      -5.4      0.000      0.000
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C1_2 
+REMARK    2  A    between atoms: O1_1  and  C2_3 
+REMARK    3  A    between atoms: C1_2  and  C3_4 
+REMARK    4  A    between atoms: C1_2  and  C4_5 
+REMARK    5  A    between atoms: C3_4  and  C6_8 
+REMARK    6  A    between atoms: C3_4  and  O3_9 
+REMARK    7  A    between atoms: C4_5  and  C7_10 
+REMARK    8  A    between atoms: C4_5  and  O4_11 
+REMARK    9  A    between atoms: C5_7  and  O5_13 
+REMARK   10  A    between atoms: C6_8  and  C10_15 
+REMARK   11  A    between atoms: C6_8  and  O6_16 
+REMARK   12  A    between atoms: C7_10  and  O7_17 
+REMARK   13  A    between atoms: C8_12  and  C11_18 
+REMARK   14  A    between atoms: C9_14  and  O8_20 
+REMARK   15  A    between atoms: C11_18  and  O10_22 
+REMARK   16  A    between atoms: C12_19  and  O11_23 
+ROOT
+HETATM    1  O1  UNL     1      49.644   2.748 104.005  1.00  0.00    -0.348 OA
+ENDROOT
+BRANCH   1   2
+HETATM    2  C1  UNL     1      48.714   3.573 103.284  1.00  0.00     0.187 C 
+BRANCH   2   3
+HETATM    3  C3  UNL     1      49.311   4.043 101.926  1.00  0.00     0.185 C 
+BRANCH   3   4
+HETATM    4  C6  UNL     1      49.706   5.527 101.820  1.00  0.00     0.210 C 
+BRANCH   4   5
+HETATM    5  C10 UNL     1      50.939   5.751 100.956  1.00  0.00     0.265 C 
+HETATM    6  O9  UNL     1      52.087   5.723 101.393  1.00  0.00    -0.304 OA
+ENDBRANCH   4   5
+BRANCH   4   7
+HETATM    7  O6  UNL     1      49.837   6.110 103.113  1.00  0.00    -0.386 OA
+HETATM    8  H15 UNL     1      49.676   7.068 102.995  1.00  0.00     0.210 HD
+ENDBRANCH   4   7
+ENDBRANCH   3   4
+BRANCH   3   9
+HETATM    9  O3  UNL     1      50.378   3.187 101.500  1.00  0.00    -0.390 OA
+HETATM   10  H7  UNL     1      51.192   3.481 101.947  1.00  0.00     0.210 HD
+ENDBRANCH   3   9
+ENDBRANCH   2   3
+BRANCH   2  11
+HETATM   11  C4  UNL     1      47.390   2.766 103.211  1.00  0.00     0.173 C 
+BRANCH  11  12
+HETATM   12  C7  UNL     1      47.660   1.261 103.053  1.00  0.00     0.198 C 
+BRANCH  12  13
+HETATM   13  O7  UNL     1      47.775   0.655 104.344  1.00  0.00    -0.398 OA
+HETATM   14  H16 UNL     1      47.382  -0.232 104.265  1.00  0.00     0.209 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+BRANCH  11  15
+HETATM   15  O4  UNL     1      46.568   2.954 104.362  1.00  0.00    -0.391 OA
+HETATM   16  H10 UNL     1      45.803   2.359 104.238  1.00  0.00     0.210 HD
+ENDBRANCH  11  15
+ENDBRANCH   2  11
+ENDBRANCH   1   2
+BRANCH   1  17
+HETATM   17  C2  UNL     1      50.080   3.306 105.250  1.00  0.00     0.292 C 
+HETATM   18  O2  UNL     1      50.959   4.395 104.977  1.00  0.00    -0.348 OA
+HETATM   19  C8  UNL     1      51.521   4.989 106.153  1.00  0.00     0.179 C 
+HETATM   20  C12 UNL     1      52.367   3.953 106.912  1.00  0.00     0.180 C 
+HETATM   21  C9  UNL     1      51.474   2.768 107.279  1.00  0.00     0.183 C 
+HETATM   22  C5  UNL     1      50.797   2.191 106.038  1.00  0.00     0.204 C 
+BRANCH  19  23
+HETATM   23  C11 UNL     1      52.353   6.190 105.695  1.00  0.00     0.198 C 
+BRANCH  23  24
+HETATM   24  O10 UNL     1      52.516   6.175 104.278  1.00  0.00    -0.398 OA
+HETATM   25  H21 UNL     1      52.268   5.275 103.984  1.00  0.00     0.209 HD
+ENDBRANCH  23  24
+ENDBRANCH  19  23
+BRANCH  20  26
+HETATM   26  O11 UNL     1      52.916   4.489 108.119  1.00  0.00    -0.390 OA
+HETATM   27  H22 UNL     1      53.335   5.339 107.885  1.00  0.00     0.210 HD
+ENDBRANCH  20  26
+BRANCH  21  28
+HETATM   28  O8  UNL     1      52.252   1.740 107.914  1.00  0.00    -0.390 OA
+HETATM   29  H20 UNL     1      53.177   2.054 107.869  1.00  0.00     0.210 HD
+ENDBRANCH  21  28
+BRANCH  22  30
+HETATM   30  O5  UNL     1      49.872   1.171 106.455  1.00  0.00    -0.388 OA
+HETATM   31  H12 UNL     1      49.028   1.408 106.020  1.00  0.00     0.210 HD
+ENDBRANCH  22  30
+ENDBRANCH   1  17
+TORSDOF 16
+ENDMDL

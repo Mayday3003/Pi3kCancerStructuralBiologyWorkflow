@@ -1,0 +1,29 @@
+# =============================================================================
+# ARCHIVO DE CONFIGURACIÓN — RECEPTOR HUMANA (PI3Kδ, PDB: 7RSP)
+# AutoDock Vina — Cribado Virtual Masivo
+# =============================================================================
+# IMPORTANTE: Este archivo solo contiene los parámetros FIJOS.
+# Los parámetros dinámicos (--ligand, --out, --log, --cpu, --num_modes)
+# se pasan directamente en la línea de comandos por el script run_screening.sh
+# =============================================================================
+
+# --- Receptor ---
+receptor = /home/Mayday3003/Documents/universidad/biologia/Proyecto2/analysis/virtual_screening/human_model/complex-7RSP.pdbqt
+
+# --- Centro de la caja de Grid Box (coordenadas del sitio activo) ---
+center_x = 50.5
+center_y = 2.6
+center_z = 106.1
+
+# --- Dimensiones de la caja (Angstroms) ---
+size_x = 26
+size_y = 26
+size_z = 26
+
+# --- Parámetros de búsqueda ---
+exhaustiveness = 8
+
+# =============================================================================
+# NOTA: NO incluir aquí: ligand, out, log, cpu, num_modes
+# Esos parámetros los gestiona el script de automatización.
+# =============================================================================

@@ -1,0 +1,14 @@
+receptor = protein_4xe0_clase.pdbqt
+ligand = DB09054_idelalisib_clase.pdbqt
+
+out = out_4xe0.pdbqt
+
+center_x = -4.8
+center_y = -12.4
+center_z = 22
+
+size_x = 26
+size_y = 26
+size_z = 26
+
+exhaustiveness = 8

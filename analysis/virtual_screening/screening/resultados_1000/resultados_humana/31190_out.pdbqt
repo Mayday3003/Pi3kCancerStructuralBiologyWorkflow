@@ -1,0 +1,33 @@
+MODEL 1
+REMARK VINA RESULT:      -8.3      0.000      0.000
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_8  and  C8_10 
+ROOT
+HETATM    1  C1  UNL     1      50.744   1.125 103.356  1.00  0.00     0.302 C 
+HETATM    2  N1  UNL     1      49.646   1.518 102.531  1.00  0.00     0.087 N 
+HETATM    3  C2  UNL     1      48.415   0.830 102.788  1.00  0.00     0.302 C 
+HETATM    4  C3  UNL     1      48.031   0.794 104.226  1.00  0.00     0.304 A 
+HETATM    5  N2  UNL     1      49.211   0.802 105.111  1.00  0.00     0.105 N 
+HETATM    6  C4  UNL     1      50.237   0.144 104.441  1.00  0.00     0.304 A 
+HETATM    7  C5  UNL     1      50.053   1.497 101.164  1.00  0.00     0.310 C 
+HETATM    8  C6  UNL     1      48.861   0.562 106.452  1.00  0.00     0.289 A 
+HETATM    9  C7  UNL     1      48.361  -0.786 106.808  1.00  0.00    -0.021 A 
+HETATM   10  C14 UNL     1      48.961  -1.964 106.416  1.00  0.00     0.010 A 
+HETATM   11  C15 UNL     1      48.481  -3.216 106.754  1.00  0.00     0.001 A 
+HETATM   12  C16 UNL     1      47.361  -3.335 107.512  1.00  0.00     0.000 A 
+HETATM   13  C17 UNL     1      46.725  -2.209 107.930  1.00  0.00     0.001 A 
+HETATM   14  C18 UNL     1      47.208  -0.982 107.589  1.00  0.00     0.010 A 
+HETATM   15 CL1  UNL     1      49.279   0.569 105.157  1.00  0.00    -0.145 Cl
+HETATM   16  H23 UNL     1      49.187   0.137 106.456  1.00  0.00     0.145 HD
+ENDROOT
+BRANCH   8  17
+HETATM   17  C8  UNL     1      49.615   1.248 107.517  1.00  0.00    -0.021 A 
+HETATM   18  C9  UNL     1      50.089   0.669 108.667  1.00  0.00     0.010 A 
+HETATM   19  C10 UNL     1      50.791   1.364 109.636  1.00  0.00     0.001 A 
+HETATM   20  C11 UNL     1      51.053   2.710 109.485  1.00  0.00     0.000 A 
+HETATM   21  C12 UNL     1      50.600   3.322 108.360  1.00  0.00     0.001 A 
+HETATM   22  C13 UNL     1      49.914   2.630 107.418  1.00  0.00     0.010 A 
+ENDBRANCH   8  17
+TORSDOF 1
+ENDMDL

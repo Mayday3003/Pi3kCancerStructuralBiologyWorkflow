@@ -1,0 +1,34 @@
+[H[2J[1m[0;36m
+╔════════════════════════════════════════════════════════════╗
+║         CRIBADO VIRTUAL MASIVO — AUTODOCK VINA             ║
+║         Receptor Humana + Receptor Hongo                   ║
+╚════════════════════════════════════════════════════════════╝
+[0m
+[0;36m[INFO][0m  18:45:48 Proyecto en: /home/Mayday3003/Documents/universidad/biologia/Proyecto2/segunda_parte/screening
+[0;36m[INFO][0m  18:45:48 CPU cores  : 15
+[0;36m[INFO][0m  18:45:48 Num modes  : 1
+[0;36m[INFO][0m  18:45:48 Exhaustiveness: 8
+
+
+[1m[0;36m========== VERIFICANDO DEPENDENCIAS ==========[0m
+
+[0;32m[OK][0m    18:45:48 Vina encontrado: /usr/local/bin/vina
+[0;32m[OK][0m    18:45:48 Python3 disponible: Python 3.9.25
+[0;32m[OK][0m    18:45:48 Base de datos de ligandos: 20 archivos .pdbqt encontrados
+[0;32m[OK][0m    18:45:48 Receptor Humana verificado: /home/Mayday3003/Documents/universidad/biologia/Proyecto2/segunda_parte/screening/receptores/complex-7RSP.pdbqt
+[0;32m[OK][0m    18:45:48 Receptor Hongo verificado: /home/Mayday3003/Documents/universidad/biologia/Proyecto2/segunda_parte/screening/receptores/model05_sup_complex_h.pdbqt
+[0;32m[OK][0m    18:45:48 Config Humana verificado: /home/Mayday3003/Documents/universidad/biologia/Proyecto2/segunda_parte/screening/configs/vina_config_humana.txt
+[0;32m[OK][0m    18:45:48 Config Hongo verificado: /home/Mayday3003/Documents/universidad/biologia/Proyecto2/segunda_parte/screening/configs/vina_config_honguito.txt
+
+[1m[0;36m========== CREANDO ESTRUCTURA DE DIRECTORIOS ==========[0m
+
+[0;32m[OK][0m    18:45:48 Carpeta creada/verificada: /home/Mayday3003/Documents/universidad/biologia/Proyecto2/segunda_parte/screening/resultados_humana
+[0;32m[OK][0m    18:45:48 Carpeta creada/verificada: /home/Mayday3003/Documents/universidad/biologia/Proyecto2/segunda_parte/screening/resultados_hongo
+[0;32m[OK][0m    18:45:48 Archivo de errores inicializado: /home/Mayday3003/Documents/universidad/biologia/Proyecto2/segunda_parte/screening/errores.log
+
+[1m[0;36m========== INICIANDO CRIBADO: HUMANA ==========[0m
+
+[0;36m[INFO][0m  18:45:48 Total de ligandos a procesar: 20
+[0;36m[INFO][0m  18:45:48 Resultados → /home/Mayday3003/Documents/universidad/biologia/Proyecto2/segunda_parte/screening/resultados_humana
+
+[0;36m[humana][0m Progreso: 1/20 (5%) | OK: 0 | Fail: 0 | 10006973    [0;36m[humana][0m Progreso: 2/20 (10%) | OK: 1 | Fail: 0 | 17507    [0;36m[humana][0m Progreso: 3/20 (15%) | OK: 2 | Fail: 0 | 20836    [0;36m[humana][0m Progreso: 4/20 (20%) | OK: 3 | Fail: 0 | 21669    [0;36m[humana][0m Progreso: 5/20 (25%) | OK: 4 | Fail: 0 | 30617    

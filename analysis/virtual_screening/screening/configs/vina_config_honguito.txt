@@ -1,0 +1,15 @@
+receptor = /home/Mayday3003/Documents/universidad/biologia/Proyecto2/analysis/virtual_screening/screening/receptores/model05_sup_complex_h.pdbqt
+exhaustiveness = 8
+num_modes = 1
+
+
+center_x = 49.7
+center_y = 4.1
+center_z = 104.9
+
+
+size_x = 26
+size_y = 26
+size_z = 26
+
+

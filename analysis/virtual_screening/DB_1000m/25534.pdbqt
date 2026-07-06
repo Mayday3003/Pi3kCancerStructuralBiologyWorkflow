@@ -1,0 +1,84 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_5  and  C7_9 
+REMARK       I    between atoms: C7_9  and  N1_10 
+REMARK    2  A    between atoms: N1_10  and  C8_12 
+REMARK    3  A    between atoms: C8_12  and  C9_13 
+REMARK    4  A    between atoms: C8_12  and  C10_14 
+REMARK    5  A    between atoms: C9_13  and  C11_15 
+REMARK       I    between atoms: C10_14  and  N2_19 
+REMARK    6  A    between atoms: C11_15  and  C12_16 
+REMARK    7  A    between atoms: C12_16  and  O2_17 
+REMARK    8  A    between atoms: N2_19  and  C13_21 
+REMARK    9  A    between atoms: N2_19  and  C18_26 
+REMARK   10  A    between atoms: C13_21  and  C14_22 
+REMARK   11  A    between atoms: C14_22  and  C15_23 
+REMARK   12  A    between atoms: C15_23  and  C16_24 
+REMARK   13  A    between atoms: C18_26  and  C19_27 
+REMARK   14  A    between atoms: C19_27  and  C20_28 
+REMARK   15  A    between atoms: C20_28  and  O5_29 
+ROOT
+HETATM    1  C8  UNL     1      29.859  28.681  38.851  1.00  0.00     0.177 C 
+ENDROOT
+BRANCH   1   2
+HETATM    2  N1  UNL     1      30.955  28.665  39.821  1.00  0.00    -0.344 N 
+HETATM    3  C7  UNL     1      30.985  27.776  40.869  1.00  0.00     0.252 C 
+HETATM    4  O1  UNL     1      30.053  27.026  41.137  1.00  0.00    -0.268 OA
+HETATM    5  H4  UNL     1      31.815  29.095  39.490  1.00  0.00     0.163 HD
+BRANCH   3   6
+HETATM    6  C5  UNL     1      32.235  27.734  41.676  1.00  0.00     0.033 A 
+HETATM    7  C4  UNL     1      32.209  28.284  42.965  1.00  0.00     0.019 A 
+HETATM    8  C3  UNL     1      33.357  28.268  43.761  1.00  0.00     0.026 A 
+HETATM    9  C2  UNL     1      34.541  27.710  43.272  1.00  0.00     0.055 A 
+HETATM   10  C1  UNL     1      34.574  27.175  41.978  1.00  0.00     0.056 A 
+HETATM   11 CL2  UNL     1      35.922  27.719  44.309  1.00  0.00    -0.083 Cl
+HETATM   12  C6  UNL     1      33.424  27.188  41.180  1.00  0.00     0.042 A 
+HETATM   13 CL1  UNL     1      36.009  26.484  41.302  1.00  0.00    -0.083 Cl
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  14
+HETATM   14  C9  UNL     1      29.068  29.991  38.944  1.00  0.00     0.045 C 
+BRANCH  14  15
+HETATM   15  C11 UNL     1      29.909  31.146  39.491  1.00  0.00     0.112 C 
+BRANCH  15  16
+HETATM   16  C12 UNL     1      29.802  32.363  38.614  1.00  0.00     0.139 C 
+HETATM   17  O3  UNL     1      29.021  32.546  37.696  1.00  0.00    -0.650 OA
+BRANCH  16  18
+HETATM   18  O2  UNL     1      30.698  33.310  38.957  1.00  0.00    -0.776 OA
+HETATM   19  H10 UNL     1      31.165  33.512  38.118  1.00  0.00     0.167 HD
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+BRANCH   1  20
+HETATM   20  C10 UNL     1      30.505  28.555  37.452  1.00  0.00     0.242 C 
+HETATM   21  N2  UNL     1      30.458  27.328  36.796  1.00  0.00    -0.350 N 
+HETATM   22  O4  UNL     1      31.013  29.558  36.931  1.00  0.00    -0.271 OA
+BRANCH  21  23
+HETATM   23  C13 UNL     1      31.029  27.243  35.449  1.00  0.00     0.126 C 
+BRANCH  23  24
+HETATM   24  C14 UNL     1      30.286  26.209  34.600  1.00  0.00     0.020 C 
+BRANCH  24  25
+HETATM   25  C15 UNL     1      29.419  26.833  33.503  1.00  0.00     0.001 C 
+BRANCH  25  26
+HETATM   26  C16 UNL     1      29.551  28.348  33.334  1.00  0.00    -0.004 C 
+HETATM   27  C17 UNL     1      28.233  29.047  33.039  1.00  0.00     0.005 C 
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+BRANCH  21  28
+HETATM   28  C18 UNL     1      29.977  26.077  37.391  1.00  0.00     0.128 C 
+BRANCH  28  29
+HETATM   29  C19 UNL     1      31.066  25.380  38.202  1.00  0.00     0.046 C 
+BRANCH  29  30
+HETATM   30  C20 UNL     1      30.827  23.878  38.279  1.00  0.00     0.168 C 
+BRANCH  30  31
+HETATM   31  O5  UNL     1      31.702  23.338  39.267  1.00  0.00    -0.396 OA
+HETATM   32  C21 UNL     1      31.454  23.893  40.552  1.00  0.00     0.201 C 
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  21  28
+ENDBRANCH   1  20
+TORSDOF 15

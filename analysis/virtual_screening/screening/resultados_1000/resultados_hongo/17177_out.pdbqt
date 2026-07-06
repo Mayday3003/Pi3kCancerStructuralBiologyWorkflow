@@ -1,0 +1,27 @@
+MODEL 1
+REMARK VINA RESULT:      -6.3      0.000      0.000
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+ROOT
+HETATM    1  C1  UNL     1      51.228   2.442 107.315  1.00  0.00     0.092 A 
+HETATM    2  C2  UNL     1      51.436   1.567 108.375  1.00  0.00     0.064 A 
+HETATM    3  C3  UNL     1      50.922   0.287 108.381  1.00  0.00     0.044 A 
+HETATM    4  C4  UNL     1      50.184  -0.157 107.323  1.00  0.00     0.009 A 
+HETATM    5  C5  UNL     1      49.951   0.676 106.246  1.00  0.00     0.044 A 
+HETATM    6  C6  UNL     1      50.477   1.968 106.257  1.00  0.00     0.064 A 
+HETATM    7 CL1  UNL     1      50.190   3.052 104.888  1.00  0.00    -0.082 Cl
+HETATM    8  I1  UNL     1      49.435  -2.126 107.408  1.00  0.00    -0.044 I 
+HETATM    9 CL2  UNL     1      52.397   2.197 109.713  1.00  0.00    -0.082 Cl
+HETATM   10  N1  UNL     1      51.745   3.756 107.291  1.00  0.00    -0.187 N 
+HETATM   11  C7  UNL     1      54.978   5.209 106.231  1.00  0.00     0.160 C 
+HETATM   12  C8  UNL     1      55.062   3.767 105.834  1.00  0.00     0.189 C 
+HETATM   13  N2  UNL     1      53.842   3.194 106.327  1.00  0.00    -0.106 NA
+HETATM   14  C9  UNL     1      53.029   4.086 106.752  1.00  0.00     0.696 A 
+HETATM   15  N3  UNL     1      53.595   5.373 106.601  1.00  0.00    -0.223 N 
+HETATM   16 CL3  UNL     1      52.881   3.307 106.813  1.00  0.00    -0.145 Cl
+HETATM   17  H3  UNL     1      51.208   4.588 107.677  1.00  0.00     0.184 HD
+HETATM   18  H8  UNL     1      53.108   6.289 106.732  1.00  0.00     0.177 HD
+HETATM   19  H9  UNL     1      51.878   2.378 107.029  1.00  0.00     0.145 HD
+ENDROOT
+TORSDOF 0
+ENDMDL
