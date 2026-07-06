@@ -1,4 +1,4 @@
-# Project 2: PI3K Docking and Virtual Screening
+# PI3K Docking and Virtual Screening
 
 This repository documents a PI3K structural biology workflow, including docking validation, structural alignment, and virtual screening against human and fungal targets.
 
